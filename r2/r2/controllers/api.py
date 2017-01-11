@@ -4290,7 +4290,7 @@ class ApiController(RedditController):
     )
     @api_doc(api_section.flair, uses_site=True)
     def POST_flairselector(self, user, link):
-        """Return information about a users's flair options.
+        """Return information about a user's flair options.
 
         If `link` is given, return link flair options.
         Otherwise, return user flair options for this subreddit.
